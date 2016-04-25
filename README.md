@@ -16,3 +16,10 @@ rake
 Notes:
 
 * Dalli cache is enabled in production only
+
+To test caching (local memcached server must be running):
+```
+RAILS_ENV=production rake db:setup
+RAILS_ENV=production rake db:setup
+```
+(the second time will be much faster)
