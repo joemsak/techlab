@@ -22,7 +22,7 @@ RSpec.describe "Get channels" do
       updated_at: Date.new(2011, 1, 3)
     )
 
-    channels = GetChannels.chronological
+    channels = Channels::Read.chronological
 
     expect(channels.years.first).to eq(2011)
     expect(channels.years.last).to eq(2010)

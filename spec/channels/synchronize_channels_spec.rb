@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe "Synchronize channels" do
   it "creates the channels from the audio addict api" do
     VCR.use_cassette('channels json') do
-      sync = SynchronizeChannels.new
+      sync = Channels::Sync.new
 
       channels = sync.call
 

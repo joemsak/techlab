@@ -3,7 +3,7 @@ require "rails_helper"
 RSpec.describe "Store a channel" do
   it "creates a channel in the DB from the api" do
     VCR.use_cassette('create a channel') do
-      create_channel = CreateChannel.new
+      create_channel = Channels::Create.new
       json = JSON.parse(File.read("./spec/fixtures/raw_channel.json"))
 
       channel = create_channel.call(json)
@@ -23,7 +23,7 @@ RSpec.describe "Store a channel" do
 
   it "adds the stream url from the webplayer api" do
     VCR.use_cassette('create a channel') do
-      create_channel = CreateChannel.new
+      create_channel = Channels::Create.new
       json = JSON.parse(File.read("./spec/fixtures/raw_channel.json"))
 
       channel = create_channel.call(json)

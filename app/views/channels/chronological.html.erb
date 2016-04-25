@@ -1,39 +1,26 @@
 <ul class="nav nav-tabs">
-
   <% @channels.years.each_with_index do |year, i| %>
     <li class="nav-item">
-      <%= link_to year, "#channels_#{year}", class: "nav-link #{'active' if i == 0}",
-                                             data: { toggle: "tab" } %>
+      <%= link_to year, "#channels-#{year}",
+                        class: "nav-link #{'active' if i == 0}",
+                        data: { toggle: "tab" } %>
     </li>
   <% end %>
 </ul>
 
 <div class="tab-content">
   <% @channels.years.each_with_index do |year, i| %>
-    <div class="tab-pane <%= 'active' if i == 0 %>" id="channels_<%= year %>">
+    <div class="tab-pane <%= 'active' if i == 0 %>"
+         id="channels-<%= year %>">
+
       <table class="table table-striped">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th width="250">Description</th>
-            <th>Image</th>
-            <th>Date added</th>
-            <th>Last updated</th>
-          </tr>
-        </thead>
+        <%= render 'header' %>
 
         <tbody>
-          <% @channels.in(year).each do |channel| %>
-            <tr>
-              <td><%= channel.name %></td>
-              <td><%= channel.description %></td>
-              <td><%= image_tag channel.asset_url, height: 100, alt: channel.name %></td>
-              <td><%= channel.created_at.strftime("%b %e, %Y") %></td>
-              <td><%= channel.updated_at.strftime("%b %e, %Y %l:%M%P") %></td>
-            </tr>
-          <% end %>
+          <%= render @channels.in(year) %>
         </tbody>
       </table>
+
     </div>
   <% end %>
 </div>

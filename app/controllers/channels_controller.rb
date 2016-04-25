@@ -1,5 +1,5 @@
 class ChannelsController < ApplicationController
   def chronological
-    @channels = GetChannels.chronological
+    @channels = Channels::Read.chronological
   end
 end
