@@ -8,4 +8,9 @@ class AudioAddictApi
   def channels
     self.class.get("/channels.json")
   end
+
+  def stream_url(channel)
+    resp = self.class.get("/listen/webplayer/#{channel.key}.json")
+    resp[2]
+  end
 end
