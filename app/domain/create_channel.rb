@@ -1,8 +1,6 @@
 class CreateChannel
   attr_reader :api_class, :channel_class
 
-  CHANNEL_ATTRS = %i{api_id key name description asset_url created_at updated_at}
-
   def initialize(api_class = AudioAddictApi, channel_class = Channel)
     @api_class = api_class
     @channel_class = channel_class
@@ -30,7 +28,7 @@ class CreateChannel
     attrs[:api_id] = attrs[:id]
 
     attrs.select do |key, _|
-      CHANNEL_ATTRS.include?(key.to_sym)
+      channel_class.storage_attrs.include?(key.to_sym)
     end
   end
 end
