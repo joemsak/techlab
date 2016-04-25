@@ -1,7 +1,7 @@
 class CreateChannel
   attr_reader :api, :channel, :channel_class
 
-  def initialize(api_class = AudioAddictApi, channel_class = Channel)
+  def initialize(api_class = AudioAddict::Api::V1::Di, channel_class = Channel)
     @api = api_class.new
     @channel_class = channel_class
   end

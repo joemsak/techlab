@@ -2,12 +2,12 @@ require "rails_helper"
 
 RSpec.describe "Get channels from API" do
   it 'has the audio addict api as its base' do
-    expect(AudioAddictApi.base_uri).to eq('http://api.audioaddict.com/v1/di')
+    expect(AudioAddict::Api::V1::Di.base_uri).to eq('http://api.audioaddict.com/v1/di')
   end
 
   it "returns an item from the json response" do
     VCR.use_cassette('channels json') do
-      api = AudioAddictApi.new
+      api = AudioAddict::Api::V1::Di.new
       channels = api.channels
 
       first_channel = channels.first

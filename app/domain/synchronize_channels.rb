@@ -1,7 +1,7 @@
 class SynchronizeChannels
   attr_reader :api, :channel_creator
 
-  def initialize(api_class = AudioAddictApi, channel_creator = CreateChannel)
+  def initialize(api_class = AudioAddict::Api::V1::Di, channel_creator = CreateChannel)
     @api = api_class.new
     @channel_creator = channel_creator.new
   end
