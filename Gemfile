@@ -18,12 +18,16 @@ gem 'dalli'
 group :development, :test do
   gem 'pry-rails'
   gem 'rspec-rails'
-  gem 'vcr'
-  gem 'webmock'
-  gem 'database_cleaner'
 end
 
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
+  gem 'quiet_assets'
+end
+
+group :test do
+  gem 'vcr'
+  gem 'webmock'
+  gem 'database_cleaner'
 end
