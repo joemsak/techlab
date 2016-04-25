@@ -1,28 +1,33 @@
 class CreateChannel
-  attr_reader :api_class, :channel_class
+  attr_reader :api, :channel, :channel_class
 
   def initialize(api_class = AudioAddictApi, channel_class = Channel)
-    @api_class = api_class
+    @api = api_class.new
     @channel_class = channel_class
   end
 
-  def call(channel_json)
-    channel_attrs = sanitize_channel_json(channel_json)
+  def call(json)
+    @channel = channel_class.new
 
-    channel = channel_class.new(channel_attrs)
-    channel.stream_url = stream_url_for(channel)
+    set_response_attrs_on_channel(json)
+    set_stream_url_on_channel
+
     channel.save
-
     channel
   end
 
   private
-  def stream_url_for(channel)
-    api = api_class.new
-    api.stream_url(channel)
+  def set_response_attrs_on_channel(json)
+    sanitized_attributes(json).each do |attr, value|
+      channel.send("#{attr}=", value)
+    end
   end
 
-  def sanitize_channel_json(json)
+  def set_stream_url_on_channel
+    channel.stream_url = api.stream_url(channel)
+  end
+
+  def sanitized_attributes(json)
     attrs = json.with_indifferent_access
 
     attrs[:api_id] = attrs[:id]

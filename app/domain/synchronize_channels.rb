@@ -7,9 +7,7 @@ class SynchronizeChannels
   end
 
   def call
-    json = api.channels
-
-    json.map do |channel|
+    api.channels.map do |channel|
       channel_creator.call(channel)
     end
   end
