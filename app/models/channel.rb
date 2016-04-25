@@ -7,7 +7,6 @@ class Channel < ActiveRecord::Base
     end
   }
 
-
   def self.storage_attrs
     %i{api_id
        key
