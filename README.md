@@ -2,15 +2,20 @@
 
 Ruby version: `2.3.0` (rbenv, rvm, chruby enabled)
 
-Setup (seeds db with Audio Addict API channels):
+Setup:
 ```
 bundle install
 rake db:setup
 ```
+(the DB is seeded with Audio Addict API channels)
 
 Run tests:
 ```
 rake
+
+-or-
+
+rspec
 ```
 
 Notes:
