@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: techlab_production
-  username: techlab
-  password: <%= ENV['TECHLAB_DATABASE_PASSWORD'] %>
