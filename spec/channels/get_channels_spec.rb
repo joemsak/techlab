@@ -24,10 +24,10 @@ RSpec.describe "Get channels" do
 
     channels = GetChannels.chronological
 
-    expect(channels.keys.first).to eq(2011)
-    expect(channels.keys.last).to eq(2010)
+    expect(channels.years.first).to eq(2011)
+    expect(channels.years.last).to eq(2010)
 
-    expect(channels[2010]).to eq([new_2010, old_2010])
-    expect(channels[2011]).to eq([new_2011, old_2011])
+    expect(channels.in(2010)).to eq([new_2010, old_2010])
+    expect(channels.in(2011)).to eq([new_2011, old_2011])
   end
 end
