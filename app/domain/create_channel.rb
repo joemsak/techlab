@@ -1,25 +1,36 @@
 class CreateChannel
-  attr_reader :channel_class
+  attr_reader :api_class, :channel_class
 
   CHANNEL_ATTRS = %i{api_id key name description asset_url created_at updated_at}
 
-  def initialize(channel_class = Channel)
+  def initialize(api_class = AudioAddictApi, channel_class = Channel)
+    @api_class = api_class
     @channel_class = channel_class
   end
 
   def call(channel_json)
     channel_attrs = sanitize_channel_json(channel_json)
-    channel_class.create!(channel_attrs)
+
+    channel = channel_class.new(channel_attrs)
+    channel.stream_url = stream_url_for(channel)
+    channel.save
+
+    channel
   end
 
   private
+  def stream_url_for(channel)
+    api = api_class.new
+    api.stream_url(channel)
+  end
+
   def sanitize_channel_json(json)
-    attrs = json
+    attrs = json.with_indifferent_access
 
     attrs[:api_id] = attrs[:id]
 
     attrs.select do |key, _|
-      CHANNEL_ATTRS.include?(key)
+      CHANNEL_ATTRS.include?(key.to_sym)
     end
   end
 end
