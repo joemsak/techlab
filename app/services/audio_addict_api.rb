@@ -1,5 +1,11 @@
+require 'httparty'
+
 class AudioAddictApi
-  def self.channels
-    []
+  include HTTParty
+
+  base_uri 'api.audioaddict.com/v1/di'
+
+  def channels
+    self.class.get("/channels.json")
   end
 end

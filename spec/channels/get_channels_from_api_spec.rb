@@ -1,8 +1,8 @@
 require "rails_helper"
 
 RSpec.describe "Get channels from API" do
-  it "returns empty array for no results" do
-    response = AudioAddictApi.channels
-    expect(response).to be_empty
+  it 'has the audio addict api as its base' do
+    expect(AudioAddictApi.base_uri).to eq('http://api.audioaddict.com/v1/di')
+  end
   end
 end
