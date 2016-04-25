@@ -2574,4 +2574,6322 @@ http_interactions:
         ZSxoZWlnaHQsd2lkdGgscXVhbGl0eX0ifX1d
     http_version: 
   recorded_at: Mon, 25 Apr 2016 15:09:49 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/trance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 62789bb59254ebb355623b32a2426f7d
+      Etag:
+      - W/"0a0b8a1862541aa48093015114a2f4b1"
+      X-Runtime:
+      - '0.011427'
+      Date:
+      - Mon, 25 Apr 2016 16:14:12 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - 139952186 17236045
+      Age:
+      - '915'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '91'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_trance_aac.flv","http://pub1.di.fm:80/di_trance_aac.flv","http://pub4.di.fm:80/di_trance_aac.flv","http://pub6.di.fm:80/di_trance_aac.flv","http://pub5.di.fm:80/di_trance_aac.flv","http://pub8.di.fm:80/di_trance_aac.flv","http://pub7.di.fm:80/di_trance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:27 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/vocaltrance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 7f8050a548631dab316f213ff0a6ebf6
+      Etag:
+      - W/"d50805f62f878702280b177753a2d8f6"
+      X-Runtime:
+      - '0.005312'
+      Date:
+      - Mon, 25 Apr 2016 16:29:27 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '871564928'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_vocaltrance_aac.flv","http://pub4.di.fm:80/di_vocaltrance_aac.flv","http://pub1.di.fm:80/di_vocaltrance_aac.flv","http://pub7.di.fm:80/di_vocaltrance_aac.flv","http://pub8.di.fm:80/di_vocaltrance_aac.flv","http://pub2.di.fm:80/di_vocaltrance_aac.flv","http://pub5.di.fm:80/di_vocaltrance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:28 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/chillout.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - df38637723ee5cd330db39ba695f87c5
+      Etag:
+      - W/"d1cb70d20fdd199c7a1320ebf47a43d7"
+      X-Runtime:
+      - '0.004948'
+      Date:
+      - Mon, 25 Apr 2016 16:29:28 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '76382377'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_chillout_aac.flv","http://pub4.di.fm:80/di_chillout_aac.flv","http://pub5.di.fm:80/di_chillout_aac.flv","http://pub2.di.fm:80/di_chillout_aac.flv","http://pub8.di.fm:80/di_chillout_aac.flv","http://pub6.di.fm:80/di_chillout_aac.flv","http://pub7.di.fm:80/di_chillout_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:28 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/house.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 3346d3632b912bfbfec9db630d908603
+      Etag:
+      - W/"2d042e3e5c0da504470dc93dc29def52"
+      X-Runtime:
+      - '0.005465'
+      Date:
+      - Mon, 25 Apr 2016 16:29:28 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '663357927'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '90'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_house_aac.flv","http://pub1.di.fm:80/di_house_aac.flv","http://pub7.di.fm:80/di_house_aac.flv","http://pub4.di.fm:80/di_house_aac.flv","http://pub8.di.fm:80/di_house_aac.flv","http://pub6.di.fm:80/di_house_aac.flv","http://pub5.di.fm:80/di_house_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:28 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/harddance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 459120af9933ac13434c08a40aff8fcf
+      Etag:
+      - W/"007dbe2b6f6472eb1a5985ca4b0daa21"
+      X-Runtime:
+      - '0.004878'
+      Date:
+      - Mon, 25 Apr 2016 16:29:28 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '638061319'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_harddance_aac.flv","http://pub5.di.fm:80/di_harddance_aac.flv","http://pub2.di.fm:80/di_harddance_aac.flv","http://pub4.di.fm:80/di_harddance_aac.flv","http://pub7.di.fm:80/di_harddance_aac.flv","http://pub8.di.fm:80/di_harddance_aac.flv","http://pub6.di.fm:80/di_harddance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:28 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/eurodance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 5a6d17cea7faad5b02b9c6797606b84f
+      Etag:
+      - W/"ff3c638b41245668b32ad56dcf995790"
+      X-Runtime:
+      - '0.004887'
+      Date:
+      - Mon, 25 Apr 2016 16:29:29 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '917669189'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_eurodance_aac.flv","http://pub1.di.fm:80/di_eurodance_aac.flv","http://pub2.di.fm:80/di_eurodance_aac.flv","http://pub5.di.fm:80/di_eurodance_aac.flv","http://pub8.di.fm:80/di_eurodance_aac.flv","http://pub6.di.fm:80/di_eurodance_aac.flv","http://pub7.di.fm:80/di_eurodance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:29 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/progressive.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - b38544c2cdd1607b7239e31c6d49c633
+      Etag:
+      - W/"97c01a9e8e1466fc047359630610d7c7"
+      X-Runtime:
+      - '0.005083'
+      Date:
+      - Mon, 25 Apr 2016 16:29:29 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '738822507'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_progressive_aac.flv","http://pub1.di.fm:80/di_progressive_aac.flv","http://pub6.di.fm:80/di_progressive_aac.flv","http://pub4.di.fm:80/di_progressive_aac.flv","http://pub5.di.fm:80/di_progressive_aac.flv","http://pub7.di.fm:80/di_progressive_aac.flv","http://pub8.di.fm:80/di_progressive_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:29 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/goapsy.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - f059bb452f0d94fc3c0710a3558fa4f5
+      Etag:
+      - W/"3a678c49664e4ec36f8515e52bdbe179"
+      X-Runtime:
+      - '0.003421'
+      Date:
+      - Mon, 25 Apr 2016 16:29:29 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '15139370'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '91'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_goapsy_aac.flv","http://pub2.di.fm:80/di_goapsy_aac.flv","http://pub4.di.fm:80/di_goapsy_aac.flv","http://pub6.di.fm:80/di_goapsy_aac.flv","http://pub8.di.fm:80/di_goapsy_aac.flv","http://pub7.di.fm:80/di_goapsy_aac.flv","http://pub5.di.fm:80/di_goapsy_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:29 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/hardcore.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 86c4257932605e49615112867efbb703
+      Etag:
+      - W/"482ffc934e3f61f40139070954277657"
+      X-Runtime:
+      - '0.008162'
+      Date:
+      - Mon, 25 Apr 2016 16:29:30 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '621091979'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_hardcore_aac.flv","http://pub2.di.fm:80/di_hardcore_aac.flv","http://pub6.di.fm:80/di_hardcore_aac.flv","http://pub5.di.fm:80/di_hardcore_aac.flv","http://pub1.di.fm:80/di_hardcore_aac.flv","http://pub8.di.fm:80/di_hardcore_aac.flv","http://pub7.di.fm:80/di_hardcore_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:30 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/djmixes.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - a30dccf4bdd9b9ace6eed59d336abf5f
+      Etag:
+      - W/"6d4c64a784d34f9a7b93266bdeb47965"
+      X-Runtime:
+      - '0.006772'
+      Date:
+      - Mon, 25 Apr 2016 16:29:30 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '809961303'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '100'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_djmixes_aac.flv","http://pub6.di.fm:80/di_djmixes_aac.flv","http://pub4.di.fm:80/di_djmixes_aac.flv","http://pub1.di.fm:80/di_djmixes_aac.flv","http://pub2.di.fm:80/di_djmixes_aac.flv","http://pub8.di.fm:80/di_djmixes_aac.flv","http://pub5.di.fm:80/di_djmixes_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:30 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/lounge.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - b6315cb2389c4ceccf11190ed940f93c
+      Etag:
+      - W/"8b8c37459b11d1e7d42b9062687ebac2"
+      X-Runtime:
+      - '0.005173'
+      Date:
+      - Mon, 25 Apr 2016 16:29:30 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '809961306'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_lounge_aac.flv","http://pub2.di.fm:80/di_lounge_aac.flv","http://pub5.di.fm:80/di_lounge_aac.flv","http://pub8.di.fm:80/di_lounge_aac.flv","http://pub6.di.fm:80/di_lounge_aac.flv","http://pub1.di.fm:80/di_lounge_aac.flv","http://pub7.di.fm:80/di_lounge_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:30 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/ambient.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - b05c3091df95923b3a2392dadd17dfe8
+      Etag:
+      - W/"d8ec6699993e8a22c4215f98ccbf5b23"
+      X-Runtime:
+      - '0.005738'
+      Date:
+      - Mon, 25 Apr 2016 16:29:30 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1001522100'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '92'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_ambient_aac.flv","http://pub1.di.fm:80/di_ambient_aac.flv","http://pub5.di.fm:80/di_ambient_aac.flv","http://pub8.di.fm:80/di_ambient_aac.flv","http://pub7.di.fm:80/di_ambient_aac.flv","http://pub4.di.fm:80/di_ambient_aac.flv","http://pub2.di.fm:80/di_ambient_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:30 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/drumandbass.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 2f14eba8c753496706b4576f04e42a6b
+      Etag:
+      - W/"9a88ec7d5ae8f6833eaf7f9d5fca6a26"
+      X-Runtime:
+      - '0.006172'
+      Date:
+      - Mon, 25 Apr 2016 16:29:30 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '578915208'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_drumandbass_aac.flv","http://pub2.di.fm:80/di_drumandbass_aac.flv","http://pub8.di.fm:80/di_drumandbass_aac.flv","http://pub6.di.fm:80/di_drumandbass_aac.flv","http://pub7.di.fm:80/di_drumandbass_aac.flv","http://pub4.di.fm:80/di_drumandbass_aac.flv","http://pub1.di.fm:80/di_drumandbass_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:30 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/classictechno.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - d67993eb0f4861fb5f3c5d557235fe79
+      Etag:
+      - W/"1a1438c6d1f4f9e2ac76ae4e6ec37e3b"
+      X-Runtime:
+      - '0.004069'
+      Date:
+      - Mon, 25 Apr 2016 16:29:30 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '936973743'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '105'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_oldschoolelectronica_aac.flv","http://pub6.di.fm:80/di_oldschoolelectronica_aac.flv","http://pub8.di.fm:80/di_oldschoolelectronica_aac.flv","http://pub4.di.fm:80/di_oldschoolelectronica_aac.flv","http://pub2.di.fm:80/di_oldschoolelectronica_aac.flv","http://pub5.di.fm:80/di_oldschoolelectronica_aac.flv","http://pub1.di.fm:80/di_oldschoolelectronica_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:30 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/breaks.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 89f8de4280b96c9834a11086385c37b7
+      Etag:
+      - W/"375f9d95ff32246ef6fe25b0601f546c"
+      X-Runtime:
+      - '0.003821'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '544836586'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_breaks_aac.flv","http://pub5.di.fm:80/di_breaks_aac.flv","http://pub6.di.fm:80/di_breaks_aac.flv","http://pub1.di.fm:80/di_breaks_aac.flv","http://pub8.di.fm:80/di_breaks_aac.flv","http://pub2.di.fm:80/di_breaks_aac.flv","http://pub4.di.fm:80/di_breaks_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/gabber.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - a29aa711a58e44a8161c8907e4029b7d
+      Etag:
+      - W/"2cbb516ef9e1a381f5f6734a6094d2ee"
+      X-Runtime:
+      - '0.006604'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '125927436'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '91'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_gabber_aac.flv","http://pub2.di.fm:80/di_gabber_aac.flv","http://pub5.di.fm:80/di_gabber_aac.flv","http://pub7.di.fm:80/di_gabber_aac.flv","http://pub6.di.fm:80/di_gabber_aac.flv","http://pub8.di.fm:80/di_gabber_aac.flv","http://pub4.di.fm:80/di_gabber_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/techno.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - aabdea2fb537e185fb651c97c7480ed2
+      Etag:
+      - W/"136a93241c03fc48cc2a4755ae205d4d"
+      X-Runtime:
+      - '0.006078'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '944080238'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '91'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_techno_aac.flv","http://pub2.di.fm:80/di_techno_aac.flv","http://pub5.di.fm:80/di_techno_aac.flv","http://pub8.di.fm:80/di_techno_aac.flv","http://pub1.di.fm:80/di_techno_aac.flv","http://pub6.di.fm:80/di_techno_aac.flv","http://pub7.di.fm:80/di_techno_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/soulfulhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 9466d613dcd1c26cedb66d2e46cd742b
+      Etag:
+      - W/"c72227bc93290e274ad29543ae57df74"
+      X-Runtime:
+      - '0.007484'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '12976658'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_soulfulhouse_aac.flv","http://pub6.di.fm:80/di_soulfulhouse_aac.flv","http://pub1.di.fm:80/di_soulfulhouse_aac.flv","http://pub4.di.fm:80/di_soulfulhouse_aac.flv","http://pub5.di.fm:80/di_soulfulhouse_aac.flv","http://pub8.di.fm:80/di_soulfulhouse_aac.flv","http://pub2.di.fm:80/di_soulfulhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/futuresynthpop.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 1d1f9f18285fb58334f171a34e0bbb27
+      Etag:
+      - W/"ba02dc64d3aa0bda58f24be84dd3aed0"
+      X-Runtime:
+      - '0.009490'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '664537585'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_futuresynthpop_aac.flv","http://pub1.di.fm:80/di_futuresynthpop_aac.flv","http://pub5.di.fm:80/di_futuresynthpop_aac.flv","http://pub6.di.fm:80/di_futuresynthpop_aac.flv","http://pub8.di.fm:80/di_futuresynthpop_aac.flv","http://pub2.di.fm:80/di_futuresynthpop_aac.flv","http://pub7.di.fm:80/di_futuresynthpop_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/electro.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - a7b5f13dd813ec42985d954e594c7eb6
+      Etag:
+      - W/"ebc6832dfeb3eb2df272240ef6c4540d"
+      X-Runtime:
+      - '0.006652'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1052246833'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_electrohouse_aac.flv","http://pub1.di.fm:80/di_electrohouse_aac.flv","http://pub8.di.fm:80/di_electrohouse_aac.flv","http://pub5.di.fm:80/di_electrohouse_aac.flv","http://pub4.di.fm:80/di_electrohouse_aac.flv","http://pub6.di.fm:80/di_electrohouse_aac.flv","http://pub7.di.fm:80/di_electrohouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/tribalhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 1ab1356545378b1e44c470c570c9a217
+      Etag:
+      - W/"87658dad5e27b1b5dcbd3278e95cb7f1"
+      X-Runtime:
+      - '0.003793'
+      Date:
+      - Mon, 25 Apr 2016 16:29:31 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1026458447'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_tribalhouse_aac.flv","http://pub2.di.fm:80/di_tribalhouse_aac.flv","http://pub1.di.fm:80/di_tribalhouse_aac.flv","http://pub8.di.fm:80/di_tribalhouse_aac.flv","http://pub6.di.fm:80/di_tribalhouse_aac.flv","http://pub4.di.fm:80/di_tribalhouse_aac.flv","http://pub7.di.fm:80/di_tribalhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:31 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/funkyhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 5476eb3a5dd826f5aba2832a733b3e87
+      Etag:
+      - W/"c6f2fdbced8a46a4c4db6a5fc16610e4"
+      X-Runtime:
+      - '0.004195'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '136844001'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_funkyhouse_aac.flv","http://pub1.di.fm:80/di_funkyhouse_aac.flv","http://pub7.di.fm:80/di_funkyhouse_aac.flv","http://pub2.di.fm:80/di_funkyhouse_aac.flv","http://pub4.di.fm:80/di_funkyhouse_aac.flv","http://pub8.di.fm:80/di_funkyhouse_aac.flv","http://pub6.di.fm:80/di_funkyhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/minimal.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 04e3fca43dc577ad5ab55a25178863de
+      Etag:
+      - W/"dd5248fee743b591e9c6537ac6929288"
+      X-Runtime:
+      - '0.004484'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '62390514'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '100'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_minimal_aac.flv","http://pub2.di.fm:80/di_minimal_aac.flv","http://pub4.di.fm:80/di_minimal_aac.flv","http://pub5.di.fm:80/di_minimal_aac.flv","http://pub1.di.fm:80/di_minimal_aac.flv","http://pub8.di.fm:80/di_minimal_aac.flv","http://pub7.di.fm:80/di_minimal_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/hardstyle.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 9d966200e65482d9bf118f7180c83aee
+      Etag:
+      - W/"5b6f257693e47eb9e1071902f3136966"
+      X-Runtime:
+      - '0.006070'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '797837203'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_hardstyle_aac.flv","http://pub4.di.fm:80/di_hardstyle_aac.flv","http://pub6.di.fm:80/di_hardstyle_aac.flv","http://pub1.di.fm:80/di_hardstyle_aac.flv","http://pub7.di.fm:80/di_hardstyle_aac.flv","http://pub8.di.fm:80/di_hardstyle_aac.flv","http://pub2.di.fm:80/di_hardstyle_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/exposurenyc.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 0e1e4fc63bf767e69cbf4aeacf42bc94
+      Etag:
+      - W/"1a8d3f3841e0727625a9faa1f545fccd"
+      X-Runtime:
+      - '0.023637'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '84967596'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_exposurenyc_aac.flv","http://pub5.di.fm:80/di_exposurenyc_aac.flv","http://pub1.di.fm:80/di_exposurenyc_aac.flv","http://pub2.di.fm:80/di_exposurenyc_aac.flv","http://pub8.di.fm:80/di_exposurenyc_aac.flv","http://pub4.di.fm:80/di_exposurenyc_aac.flv","http://pub6.di.fm:80/di_exposurenyc_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/spacemusic.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - cafcac96ea18b2fb3999e0935b5972f6
+      Etag:
+      - W/"82ad8f0e1b849975cdcc04899239da85"
+      X-Runtime:
+      - '0.006334'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '768182309'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '95'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_spacemusic_aac.flv","http://pub1.di.fm:80/di_spacemusic_aac.flv","http://pub7.di.fm:80/di_spacemusic_aac.flv","http://pub8.di.fm:80/di_spacemusic_aac.flv","http://pub6.di.fm:80/di_spacemusic_aac.flv","http://pub2.di.fm:80/di_spacemusic_aac.flv","http://pub5.di.fm:80/di_spacemusic_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/techhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 660033b0eab55bca345039aba1c80cc8
+      Etag:
+      - W/"e22c165fa3d060473879724d4c4fd983"
+      X-Runtime:
+      - '0.005591'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '32964999'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_techhouse_aac.flv","http://pub7.di.fm:80/di_techhouse_aac.flv","http://pub5.di.fm:80/di_techhouse_aac.flv","http://pub4.di.fm:80/di_techhouse_aac.flv","http://pub1.di.fm:80/di_techhouse_aac.flv","http://pub8.di.fm:80/di_techhouse_aac.flv","http://pub6.di.fm:80/di_techhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/psychill.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - e909eb27c7c0f9e0c422d049653a3439
+      Etag:
+      - W/"b26383e6e3408f81aac50cbb2509d947"
+      X-Runtime:
+      - '0.004368'
+      Date:
+      - Mon, 25 Apr 2016 16:29:32 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '51937490'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_psychill_aac.flv","http://pub1.di.fm:80/di_psychill_aac.flv","http://pub2.di.fm:80/di_psychill_aac.flv","http://pub5.di.fm:80/di_psychill_aac.flv","http://pub8.di.fm:80/di_psychill_aac.flv","http://pub6.di.fm:80/di_psychill_aac.flv","http://pub7.di.fm:80/di_psychill_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:32 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/chilloutdreams.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - a862dd134b6de1cbdc9cfb80446174d7
+      Etag:
+      - W/"305d6ac35556a0938bf9a3221f325741"
+      X-Runtime:
+      - '0.007077'
+      Date:
+      - Mon, 25 Apr 2016 16:29:33 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1070695071'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_chilloutdreams_aac.flv","http://pub6.di.fm:80/di_chilloutdreams_aac.flv","http://pub8.di.fm:80/di_chilloutdreams_aac.flv","http://pub4.di.fm:80/di_chilloutdreams_aac.flv","http://pub2.di.fm:80/di_chilloutdreams_aac.flv","http://pub7.di.fm:80/di_chilloutdreams_aac.flv","http://pub5.di.fm:80/di_chilloutdreams_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:33 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/classiceurodance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 80b3fb7da70d75071c27611bccbfb852
+      Etag:
+      - W/"5c660f11c6f0c478a71f1a719807c0f7"
+      X-Runtime:
+      - '0.006340'
+      Date:
+      - Mon, 25 Apr 2016 16:29:33 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1070793407'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '107'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_classiceurodance_aac.flv","http://pub5.di.fm:80/di_classiceurodance_aac.flv","http://pub6.di.fm:80/di_classiceurodance_aac.flv","http://pub2.di.fm:80/di_classiceurodance_aac.flv","http://pub7.di.fm:80/di_classiceurodance_aac.flv","http://pub8.di.fm:80/di_classiceurodance_aac.flv","http://pub1.di.fm:80/di_classiceurodance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:33 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/club.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 62f864812042963de509cae4677ea25a
+      Etag:
+      - W/"a4e3d6aa65d5956702a2306ee3e5c566"
+      X-Runtime:
+      - '0.006524'
+      Date:
+      - Mon, 25 Apr 2016 16:29:33 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '879630301'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '95'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_clubsounds_aac.flv","http://pub1.di.fm:80/di_clubsounds_aac.flv","http://pub5.di.fm:80/di_clubsounds_aac.flv","http://pub8.di.fm:80/di_clubsounds_aac.flv","http://pub2.di.fm:80/di_clubsounds_aac.flv","http://pub6.di.fm:80/di_clubsounds_aac.flv","http://pub7.di.fm:80/di_clubsounds_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:33 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/classictrance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - b93c7a2940570053721d21e2489fbf2f
+      Etag:
+      - W/"1ae22eb3960ee70ba7c7dab76b33004b"
+      X-Runtime:
+      - '0.004646'
+      Date:
+      - Mon, 25 Apr 2016 16:29:33 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '26673535'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '98'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_classictrance_aac.flv","http://pub4.di.fm:80/di_classictrance_aac.flv","http://pub5.di.fm:80/di_classictrance_aac.flv","http://pub8.di.fm:80/di_classictrance_aac.flv","http://pub1.di.fm:80/di_classictrance_aac.flv","http://pub6.di.fm:80/di_classictrance_aac.flv","http://pub7.di.fm:80/di_classictrance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:33 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/dubstep.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 059ba52780174a9dd8a58276ce9eb293
+      Etag:
+      - W/"2ad0119e01be02220baa8935f1064986"
+      X-Runtime:
+      - '0.005965'
+      Date:
+      - Mon, 25 Apr 2016 16:29:33 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '910230920'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '100'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_dubstep_aac.flv","http://pub1.di.fm:80/di_dubstep_aac.flv","http://pub8.di.fm:80/di_dubstep_aac.flv","http://pub6.di.fm:80/di_dubstep_aac.flv","http://pub4.di.fm:80/di_dubstep_aac.flv","http://pub7.di.fm:80/di_dubstep_aac.flv","http://pub2.di.fm:80/di_dubstep_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:33 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/discohouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 8a7ba9f66a6eb25d99ea0d0fe8a9229e
+      Etag:
+      - W/"d100bf68df6bfe7a5d3550a9364c8155"
+      X-Runtime:
+      - '0.003648'
+      Date:
+      - Mon, 25 Apr 2016 16:29:33 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '6816354'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_discohouse_aac.flv","http://pub1.di.fm:80/di_discohouse_aac.flv","http://pub4.di.fm:80/di_discohouse_aac.flv","http://pub8.di.fm:80/di_discohouse_aac.flv","http://pub6.di.fm:80/di_discohouse_aac.flv","http://pub2.di.fm:80/di_discohouse_aac.flv","http://pub7.di.fm:80/di_discohouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:33 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/oldschoolhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 698f3bde9edfbb4c4b4b533525272dff
+      Etag:
+      - W/"cdcd8e8b71f196e3743b81056ec449a2"
+      X-Runtime:
+      - '0.003885'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1061552779'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '107'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_oldschoolhouse_aac.flv","http://pub1.di.fm:80/di_oldschoolhouse_aac.flv","http://pub6.di.fm:80/di_oldschoolhouse_aac.flv","http://pub2.di.fm:80/di_oldschoolhouse_aac.flv","http://pub7.di.fm:80/di_oldschoolhouse_aac.flv","http://pub8.di.fm:80/di_oldschoolhouse_aac.flv","http://pub5.di.fm:80/di_oldschoolhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/liquiddnb.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 8432dba48db00cb52092c6b7f0b04743
+      Etag:
+      - W/"9d18292fd1e308187f197fb862c9f890"
+      X-Runtime:
+      - '0.003807'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '80347286'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_liquiddnb_aac.flv","http://pub1.di.fm:80/di_liquiddnb_aac.flv","http://pub5.di.fm:80/di_liquiddnb_aac.flv","http://pub6.di.fm:80/di_liquiddnb_aac.flv","http://pub2.di.fm:80/di_liquiddnb_aac.flv","http://pub4.di.fm:80/di_liquiddnb_aac.flv","http://pub8.di.fm:80/di_liquiddnb_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/chiptunes.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 2bab2943e110821dce7c19aae6006230
+      Etag:
+      - W/"daf85cf8aee1b882fcb90f3f4d0082c4"
+      X-Runtime:
+      - '0.023247'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1072366218'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_chiptunes_aac.flv","http://pub6.di.fm:80/di_chiptunes_aac.flv","http://pub8.di.fm:80/di_chiptunes_aac.flv","http://pub4.di.fm:80/di_chiptunes_aac.flv","http://pub2.di.fm:80/di_chiptunes_aac.flv","http://pub5.di.fm:80/di_chiptunes_aac.flv","http://pub1.di.fm:80/di_chiptunes_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/latinhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 9f2d0ba70a083813b55c9974609aa73c
+      Etag:
+      - W/"d9334aaaeaa371c41a14ae4869af5ac8"
+      X-Runtime:
+      - '0.005175'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '977699802'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_latinhouse_aac.flv","http://pub4.di.fm:80/di_latinhouse_aac.flv","http://pub1.di.fm:80/di_latinhouse_aac.flv","http://pub8.di.fm:80/di_latinhouse_aac.flv","http://pub7.di.fm:80/di_latinhouse_aac.flv","http://pub5.di.fm:80/di_latinhouse_aac.flv","http://pub2.di.fm:80/di_latinhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/ukgarage.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - c759968743052758ef2722949e08de0b
+      Etag:
+      - W/"da052957bc5345424bc473618026d3a6"
+      X-Runtime:
+      - '0.028672'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1030559225'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_ukgarage_aac.flv","http://pub6.di.fm:80/di_ukgarage_aac.flv","http://pub8.di.fm:80/di_ukgarage_aac.flv","http://pub2.di.fm:80/di_ukgarage_aac.flv","http://pub5.di.fm:80/di_ukgarage_aac.flv","http://pub4.di.fm:80/di_ukgarage_aac.flv","http://pub1.di.fm:80/di_ukgarage_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/oldschoolacid.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 5da193dca2345f3862a40f756025890c
+      Etag:
+      - W/"447cb22f2c7abd66059ae37234290a9a"
+      X-Runtime:
+      - '0.005451'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '434638249'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '98'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_oldschoolacid_aac.flv","http://pub6.di.fm:80/di_oldschoolacid_aac.flv","http://pub7.di.fm:80/di_oldschoolacid_aac.flv","http://pub4.di.fm:80/di_oldschoolacid_aac.flv","http://pub8.di.fm:80/di_oldschoolacid_aac.flv","http://pub1.di.fm:80/di_oldschoolacid_aac.flv","http://pub2.di.fm:80/di_oldschoolacid_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/classicvocaltrance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 225e364fc69992986d3b8f3f8d5e77eb
+      Etag:
+      - W/"0b7a8866583c177c362dc7e48e99b9dd"
+      X-Runtime:
+      - '0.004919'
+      Date:
+      - Mon, 25 Apr 2016 16:29:34 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '981599135'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_classicvocaltrance_aac.flv","http://pub5.di.fm:80/di_classicvocaltrance_aac.flv","http://pub6.di.fm:80/di_classicvocaltrance_aac.flv","http://pub8.di.fm:80/di_classicvocaltrance_aac.flv","http://pub4.di.fm:80/di_classicvocaltrance_aac.flv","http://pub7.di.fm:80/di_classicvocaltrance_aac.flv","http://pub1.di.fm:80/di_classicvocaltrance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:34 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/cosmicdowntempo.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 38d641c3fea74dbd43c13342d29a2de2
+      Etag:
+      - W/"e0e142a8fc9c5d0756f21453b6c57b62"
+      X-Runtime:
+      - '0.024956'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '708610506'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '100'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_cosmicdowntempo_aac.flv","http://pub6.di.fm:80/di_cosmicdowntempo_aac.flv","http://pub2.di.fm:80/di_cosmicdowntempo_aac.flv","http://pub1.di.fm:80/di_cosmicdowntempo_aac.flv","http://pub8.di.fm:80/di_cosmicdowntempo_aac.flv","http://pub4.di.fm:80/di_cosmicdowntempo_aac.flv","http://pub5.di.fm:80/di_cosmicdowntempo_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:35 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/deepnudisco.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 209e64256d3c8ce001af1e8fd8ce5854
+      Etag:
+      - W/"2089ea6795d89e6d2cdc262925324451"
+      X-Runtime:
+      - '0.005794'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '110002248'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_deepnudisco_aac.flv","http://pub5.di.fm:80/di_deepnudisco_aac.flv","http://pub4.di.fm:80/di_deepnudisco_aac.flv","http://pub1.di.fm:80/di_deepnudisco_aac.flv","http://pub6.di.fm:80/di_deepnudisco_aac.flv","http://pub8.di.fm:80/di_deepnudisco_aac.flv","http://pub7.di.fm:80/di_deepnudisco_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:35 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/vocalchillout.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 28bc1b231903f896cdcd21f929bca4d7
+      Etag:
+      - W/"a6fe0cda470f61c0cf680da246a3eb33"
+      X-Runtime:
+      - '0.006166'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1043305671'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '98'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_vocalchillout_aac.flv","http://pub2.di.fm:80/di_vocalchillout_aac.flv","http://pub1.di.fm:80/di_vocalchillout_aac.flv","http://pub5.di.fm:80/di_vocalchillout_aac.flv","http://pub8.di.fm:80/di_vocalchillout_aac.flv","http://pub7.di.fm:80/di_vocalchillout_aac.flv","http://pub4.di.fm:80/di_vocalchillout_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:35 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/deephouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - bca4b8aac58f6159919b67b985beb81b
+      Etag:
+      - W/"fc90b4846da4e7726b910fb9fecb262e"
+      X-Runtime:
+      - '0.004929'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '64323846'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_deephouse_aac.flv","http://pub1.di.fm:80/di_deephouse_aac.flv","http://pub6.di.fm:80/di_deephouse_aac.flv","http://pub8.di.fm:80/di_deephouse_aac.flv","http://pub4.di.fm:80/di_deephouse_aac.flv","http://pub7.di.fm:80/di_deephouse_aac.flv","http://pub5.di.fm:80/di_deephouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:35 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/epictrance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 2cd9d92049cd080240e3618e08f0bf95
+      Etag:
+      - W/"87070c5f1026ecfa7e2c70853f9c220a"
+      X-Runtime:
+      - '0.006594'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '92405919'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_epictrance_aac.flv","http://pub4.di.fm:80/di_epictrance_aac.flv","http://pub2.di.fm:80/di_epictrance_aac.flv","http://pub7.di.fm:80/di_epictrance_aac.flv","http://pub1.di.fm:80/di_epictrance_aac.flv","http://pub8.di.fm:80/di_epictrance_aac.flv","http://pub5.di.fm:80/di_epictrance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:35 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/handsup.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 1b7909815205636dca22ac51cb0c36b2
+      Etag:
+      - W/"23ff3493efd90314c00e4779ab51424b"
+      X-Runtime:
+      - '0.005012'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '696650284'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '92'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_handsup_aac.flv","http://pub1.di.fm:80/di_handsup_aac.flv","http://pub7.di.fm:80/di_handsup_aac.flv","http://pub4.di.fm:80/di_handsup_aac.flv","http://pub6.di.fm:80/di_handsup_aac.flv","http://pub8.di.fm:80/di_handsup_aac.flv","http://pub5.di.fm:80/di_handsup_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:35 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/clubdubstep.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 906c7adee04241a3461820d116d21a90
+      Etag:
+      - W/"4fc574ced483afed59b3bb7b980f1ba8"
+      X-Runtime:
+      - '0.005129'
+      Date:
+      - Mon, 25 Apr 2016 16:29:35 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '117112888'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_clubdubstep_aac.flv","http://pub5.di.fm:80/di_clubdubstep_aac.flv","http://pub4.di.fm:80/di_clubdubstep_aac.flv","http://pub6.di.fm:80/di_clubdubstep_aac.flv","http://pub8.di.fm:80/di_clubdubstep_aac.flv","http://pub7.di.fm:80/di_clubdubstep_aac.flv","http://pub2.di.fm:80/di_clubdubstep_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/progressivepsy.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 05e59f93dd9cbb96afcb113d33375405
+      Etag:
+      - W/"bbcbeb75b7f48fdbd8fe7ef935bf71b0"
+      X-Runtime:
+      - '0.003691'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '748751037'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_progressivepsy_aac.flv","http://pub4.di.fm:80/di_progressivepsy_aac.flv","http://pub7.di.fm:80/di_progressivepsy_aac.flv","http://pub6.di.fm:80/di_progressivepsy_aac.flv","http://pub1.di.fm:80/di_progressivepsy_aac.flv","http://pub8.di.fm:80/di_progressivepsy_aac.flv","http://pub2.di.fm:80/di_progressivepsy_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/downtempolounge.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 08bbe220744a7ddf0946dc0351e3c05c
+      Etag:
+      - W/"91b73a11b1994f90340676b12870b43d"
+      X-Runtime:
+      - '0.004699'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '563780746'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '109'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_downtempolounge_aac.flv","http://pub6.di.fm:80/di_downtempolounge_aac.flv","http://pub2.di.fm:80/di_downtempolounge_aac.flv","http://pub8.di.fm:80/di_downtempolounge_aac.flv","http://pub5.di.fm:80/di_downtempolounge_aac.flv","http://pub7.di.fm:80/di_downtempolounge_aac.flv","http://pub1.di.fm:80/di_downtempolounge_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/darkdnb.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - d1c60df846508deb64b6f9ec8d41cf64
+      Etag:
+      - W/"7a276737af684822deafd08cb16b44c7"
+      X-Runtime:
+      - '0.022057'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '778405849'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '92'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_darkdnb_aac.flv","http://pub8.di.fm:80/di_darkdnb_aac.flv","http://pub4.di.fm:80/di_darkdnb_aac.flv","http://pub2.di.fm:80/di_darkdnb_aac.flv","http://pub6.di.fm:80/di_darkdnb_aac.flv","http://pub1.di.fm:80/di_darkdnb_aac.flv","http://pub7.di.fm:80/di_darkdnb_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/deeptech.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 6454904c77c12d8289b5ff2f5fa8c98f
+      Etag:
+      - W/"0cc0cac86edb9098e8744225371431f2"
+      X-Runtime:
+      - '0.003840'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '950928571'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '93'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_deeptech_aac.flv","http://pub5.di.fm:80/di_deeptech_aac.flv","http://pub2.di.fm:80/di_deeptech_aac.flv","http://pub8.di.fm:80/di_deeptech_aac.flv","http://pub6.di.fm:80/di_deeptech_aac.flv","http://pub7.di.fm:80/di_deeptech_aac.flv","http://pub1.di.fm:80/di_deeptech_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/classiceurodisco.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - bb2dbfd82f4c88472b67b640527497c7
+      Etag:
+      - W/"04f1f90bb0855aecab574401431748ba"
+      X-Runtime:
+      - '0.004418'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '575540189'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '109'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_classiceurodisco_aac.flv","http://pub6.di.fm:80/di_classiceurodisco_aac.flv","http://pub8.di.fm:80/di_classiceurodisco_aac.flv","http://pub5.di.fm:80/di_classiceurodisco_aac.flv","http://pub4.di.fm:80/di_classiceurodisco_aac.flv","http://pub7.di.fm:80/di_classiceurodisco_aac.flv","http://pub1.di.fm:80/di_classiceurodisco_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/liquiddubstep.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 11bcaaa41f11f0d8043c6a7dd5f3e3a7
+      Etag:
+      - W/"fb19e1158ce78d93a4132442373e2d02"
+      X-Runtime:
+      - '0.003777'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '129433651'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '106'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_liquiddubstep_aac.flv","http://pub4.di.fm:80/di_liquiddubstep_aac.flv","http://pub2.di.fm:80/di_liquiddubstep_aac.flv","http://pub8.di.fm:80/di_liquiddubstep_aac.flv","http://pub6.di.fm:80/di_liquiddubstep_aac.flv","http://pub7.di.fm:80/di_liquiddubstep_aac.flv","http://pub1.di.fm:80/di_liquiddubstep_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/glitchhop.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 6c7721e31b4127209793da491dbcd9f8
+      Etag:
+      - W/"42fe9fd3e09380d24866103af72546bd"
+      X-Runtime:
+      - '0.005018'
+      Date:
+      - Mon, 25 Apr 2016 16:29:36 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '752617690'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_glitchhop_aac.flv","http://pub6.di.fm:80/di_glitchhop_aac.flv","http://pub1.di.fm:80/di_glitchhop_aac.flv","http://pub4.di.fm:80/di_glitchhop_aac.flv","http://pub8.di.fm:80/di_glitchhop_aac.flv","http://pub5.di.fm:80/di_glitchhop_aac.flv","http://pub2.di.fm:80/di_glitchhop_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:36 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/eclectronica.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - c7770dbfefc4dcdb0aeb5f91b5d82a54
+      Etag:
+      - W/"b630af2e00f489c9ffdea6731cd9f966"
+      X-Runtime:
+      - '0.006095'
+      Date:
+      - Mon, 25 Apr 2016 16:29:37 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '123535422'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '105'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_eclectronica_aac.flv","http://pub4.di.fm:80/di_eclectronica_aac.flv","http://pub7.di.fm:80/di_eclectronica_aac.flv","http://pub6.di.fm:80/di_eclectronica_aac.flv","http://pub8.di.fm:80/di_eclectronica_aac.flv","http://pub5.di.fm:80/di_eclectronica_aac.flv","http://pub1.di.fm:80/di_eclectronica_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:37 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/bigroomhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - aaa09e6ad5f426c6d93b77badff7a1ba
+      Etag:
+      - W/"04bb4ac6ec1f0368c7309ea5a9ec7905"
+      X-Runtime:
+      - '0.005923'
+      Date:
+      - Mon, 25 Apr 2016 16:29:37 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '876906009'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_bigroomhouse_aac.flv","http://pub5.di.fm:80/di_bigroomhouse_aac.flv","http://pub8.di.fm:80/di_bigroomhouse_aac.flv","http://pub6.di.fm:80/di_bigroomhouse_aac.flv","http://pub7.di.fm:80/di_bigroomhouse_aac.flv","http://pub4.di.fm:80/di_bigroomhouse_aac.flv","http://pub1.di.fm:80/di_bigroomhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:37 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/mainstage.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 17a3dfbd2aaf384d669557196b80682d
+      Etag:
+      - W/"bf8e2eae7b5d6f779097f420f3680426"
+      X-Runtime:
+      - '0.004432'
+      Date:
+      - Mon, 25 Apr 2016 16:29:37 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '858654225'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_mainstage_aac.flv","http://pub2.di.fm:80/di_mainstage_aac.flv","http://pub7.di.fm:80/di_mainstage_aac.flv","http://pub8.di.fm:80/di_mainstage_aac.flv","http://pub5.di.fm:80/di_mainstage_aac.flv","http://pub4.di.fm:80/di_mainstage_aac.flv","http://pub1.di.fm:80/di_mainstage_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:37 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/russianclubhits.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - dcf2f1b58295d00607de22dc025332b6
+      Etag:
+      - W/"e51b017829ac8b35f9fa3e859286c7f0"
+      X-Runtime:
+      - '0.004345'
+      Date:
+      - Mon, 25 Apr 2016 16:29:37 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '968164483'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '108'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_russianclubhits_aac.flv","http://pub5.di.fm:80/di_russianclubhits_aac.flv","http://pub8.di.fm:80/di_russianclubhits_aac.flv","http://pub2.di.fm:80/di_russianclubhits_aac.flv","http://pub6.di.fm:80/di_russianclubhits_aac.flv","http://pub7.di.fm:80/di_russianclubhits_aac.flv","http://pub1.di.fm:80/di_russianclubhits_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:37 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/umfradio.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - c3212a4573613c2383c4a11b5fbdcf40
+      Etag:
+      - W/"8a4c292b0c04d5c553e62d75de83483b"
+      X-Runtime:
+      - '0.005156'
+      Date:
+      - Mon, 25 Apr 2016 16:29:37 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '665684479'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_umfradio_aac.flv","http://pub2.di.fm:80/di_umfradio_aac.flv","http://pub8.di.fm:80/di_umfradio_aac.flv","http://pub7.di.fm:80/di_umfradio_aac.flv","http://pub5.di.fm:80/di_umfradio_aac.flv","http://pub4.di.fm:80/di_umfradio_aac.flv","http://pub1.di.fm:80/di_umfradio_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:37 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/umf_stage1.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 64937ec897038e4c4a602cf08f3816a0
+      Etag:
+      - W/"bdd8d56b1b6980d55e31465d80c389f5"
+      X-Runtime:
+      - '0.024935'
+      Date:
+      - Mon, 25 Apr 2016 16:29:37 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '663849627'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '95'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_umf_stage1_aac.flv","http://pub2.di.fm:80/di_umf_stage1_aac.flv","http://pub4.di.fm:80/di_umf_stage1_aac.flv","http://pub8.di.fm:80/di_umf_stage1_aac.flv","http://pub6.di.fm:80/di_umf_stage1_aac.flv","http://pub5.di.fm:80/di_umf_stage1_aac.flv","http://pub1.di.fm:80/di_umf_stage1_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:37 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/umf_stage2.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - d6f499e800b5868e43e79a3862f4d83b
+      Etag:
+      - W/"64494228920c0272c31b67c7588d8dfe"
+      X-Runtime:
+      - '0.021010'
+      Date:
+      - Mon, 25 Apr 2016 16:29:38 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '131989550'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_umf_stage2_aac.flv","http://pub2.di.fm:80/di_umf_stage2_aac.flv","http://pub5.di.fm:80/di_umf_stage2_aac.flv","http://pub8.di.fm:80/di_umf_stage2_aac.flv","http://pub4.di.fm:80/di_umf_stage2_aac.flv","http://pub7.di.fm:80/di_umf_stage2_aac.flv","http://pub1.di.fm:80/di_umf_stage2_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:38 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/umf_stage3.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Date:
+      - Mon, 25 Apr 2016 16:29:38 GMT
+      Server:
+      - Varnish
+      X-Varnish:
+      - '997168457'
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:29:38 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/umf_stage4.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 6d02511d219dbf37375a9ce2ccfbeaa3
+      Etag:
+      - W/"c049d95c20228f07c537c2aed1f65c17"
+      X-Runtime:
+      - '0.024376'
+      Date:
+      - Mon, 25 Apr 2016 16:39:54 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '913807454'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_umf_stage4_aac.flv","http://pub2.di.fm:80/di_umf_stage4_aac.flv","http://pub4.di.fm:80/di_umf_stage4_aac.flv","http://pub7.di.fm:80/di_umf_stage4_aac.flv","http://pub6.di.fm:80/di_umf_stage4_aac.flv","http://pub8.di.fm:80/di_umf_stage4_aac.flv","http://pub1.di.fm:80/di_umf_stage4_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:54 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/umf_stage5.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 4accd054c8c9431d62651783e31ee171
+      Etag:
+      - W/"39c5420805216c4d3b005cd310ae84ed"
+      X-Runtime:
+      - '0.024020'
+      Date:
+      - Mon, 25 Apr 2016 16:39:54 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1008637712'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_umf_stage5_aac.flv","http://pub2.di.fm:80/di_umf_stage5_aac.flv","http://pub5.di.fm:80/di_umf_stage5_aac.flv","http://pub8.di.fm:80/di_umf_stage5_aac.flv","http://pub6.di.fm:80/di_umf_stage5_aac.flv","http://pub7.di.fm:80/di_umf_stage5_aac.flv","http://pub1.di.fm:80/di_umf_stage5_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:54 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/chillhop.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - f0f1015eb1128ed4bedef2a67f40cdae
+      Etag:
+      - W/"855e020da9f4a04c110dba6e4d40156d"
+      X-Runtime:
+      - '0.004555'
+      Date:
+      - Mon, 25 Apr 2016 16:39:54 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1073316800'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_chillhop_aac.flv","http://pub6.di.fm:80/di_chillhop_aac.flv","http://pub7.di.fm:80/di_chillhop_aac.flv","http://pub5.di.fm:80/di_chillhop_aac.flv","http://pub8.di.fm:80/di_chillhop_aac.flv","http://pub2.di.fm:80/di_chillhop_aac.flv","http://pub4.di.fm:80/di_chillhop_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:54 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/sankeys.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 47fa22cdc6a3fb592b9ed46cd9be1139
+      Etag:
+      - W/"1d624867fcc883f7821518b8510d29dc"
+      X-Runtime:
+      - '0.018044'
+      Date:
+      - Mon, 25 Apr 2016 16:39:54 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '47846940'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '92'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_sankeys_aac.flv","http://pub5.di.fm:80/di_sankeys_aac.flv","http://pub7.di.fm:80/di_sankeys_aac.flv","http://pub8.di.fm:80/di_sankeys_aac.flv","http://pub4.di.fm:80/di_sankeys_aac.flv","http://pub6.di.fm:80/di_sankeys_aac.flv","http://pub1.di.fm:80/di_sankeys_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:54 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/trap.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - ce470dba2eb28128851334b9d6b65438
+      Etag:
+      - W/"03532a076533379990d0494e3279ecf8"
+      X-Runtime:
+      - '0.004374'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '859178882'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '89'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_trap_aac.flv","http://pub1.di.fm:80/di_trap_aac.flv","http://pub5.di.fm:80/di_trap_aac.flv","http://pub7.di.fm:80/di_trap_aac.flv","http://pub8.di.fm:80/di_trap_aac.flv","http://pub6.di.fm:80/di_trap_aac.flv","http://pub4.di.fm:80/di_trap_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/chillstep.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 201fbadcfcd5d2a7824f1489fe0bae8a
+      Etag:
+      - W/"484195190a09bd8c8796ee2f3edf375a"
+      X-Runtime:
+      - '0.006451'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1044513947'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_chillstep_aac.flv","http://pub1.di.fm:80/di_chillstep_aac.flv","http://pub6.di.fm:80/di_chillstep_aac.flv","http://pub4.di.fm:80/di_chillstep_aac.flv","http://pub5.di.fm:80/di_chillstep_aac.flv","http://pub7.di.fm:80/di_chillstep_aac.flv","http://pub8.di.fm:80/di_chillstep_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/hardtechno.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 5d5b86fb39216fe7e3f3eebd35a18b22
+      Etag:
+      - W/"bca9cc6705005f1ed2e6355eff447d7b"
+      X-Runtime:
+      - '0.005198'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '120717675'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_hardtechno_aac.flv","http://pub2.di.fm:80/di_hardtechno_aac.flv","http://pub4.di.fm:80/di_hardtechno_aac.flv","http://pub8.di.fm:80/di_hardtechno_aac.flv","http://pub7.di.fm:80/di_hardtechno_aac.flv","http://pub5.di.fm:80/di_hardtechno_aac.flv","http://pub1.di.fm:80/di_hardtechno_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/moombahton.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 05f3c278402779da91719f13c17d95a4
+      Etag:
+      - W/"1016d493afe84142826f69394a8b47d7"
+      X-Runtime:
+      - '0.029673'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '309072654'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '95'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_moombahton_aac.flv","http://pub7.di.fm:80/di_moombahton_aac.flv","http://pub6.di.fm:80/di_moombahton_aac.flv","http://pub8.di.fm:80/di_moombahton_aac.flv","http://pub4.di.fm:80/di_moombahton_aac.flv","http://pub5.di.fm:80/di_moombahton_aac.flv","http://pub1.di.fm:80/di_moombahton_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/vocallounge.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 63502428f506b0f4df80132863ad662a
+      Etag:
+      - W/"90f16a220fe4d0287b50beaac3f199ab"
+      X-Runtime:
+      - '0.005324'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '69108213'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_vocallounge_aac.flv","http://pub5.di.fm:80/di_vocallounge_aac.flv","http://pub2.di.fm:80/di_vocallounge_aac.flv","http://pub6.di.fm:80/di_vocallounge_aac.flv","http://pub8.di.fm:80/di_vocallounge_aac.flv","http://pub7.di.fm:80/di_vocallounge_aac.flv","http://pub1.di.fm:80/di_vocallounge_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/scousehouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 55f80078bd96ea76f747b112211bb038
+      Etag:
+      - W/"f6cc13c0ad8968b9116806db2930ffdf"
+      X-Runtime:
+      - '0.027488'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '986416178'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_scousehouse_aac.flv","http://pub2.di.fm:80/di_scousehouse_aac.flv","http://pub5.di.fm:80/di_scousehouse_aac.flv","http://pub6.di.fm:80/di_scousehouse_aac.flv","http://pub7.di.fm:80/di_scousehouse_aac.flv","http://pub4.di.fm:80/di_scousehouse_aac.flv","http://pub1.di.fm:80/di_scousehouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/electronicpioneers.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - c80e5e2cf315b7942359bb00e6fb9bc0
+      Etag:
+      - W/"8e197efa96d9000ca0be3769eb3b17e3"
+      X-Runtime:
+      - '0.004384'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '62980641'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_electronicpioneers_aac.flv","http://pub5.di.fm:80/di_electronicpioneers_aac.flv","http://pub6.di.fm:80/di_electronicpioneers_aac.flv","http://pub8.di.fm:80/di_electronicpioneers_aac.flv","http://pub7.di.fm:80/di_electronicpioneers_aac.flv","http://pub4.di.fm:80/di_electronicpioneers_aac.flv","http://pub2.di.fm:80/di_electronicpioneers_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:55 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/psybient.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 31c580fa5eb3b6f7d1317a1c8d98edf6
+      Etag:
+      - W/"891e0c8efdae85fe908c76485738a78c"
+      X-Runtime:
+      - '0.004693'
+      Date:
+      - Mon, 25 Apr 2016 16:39:55 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '77595070'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '93'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_psybient_aac.flv","http://pub7.di.fm:80/di_psybient_aac.flv","http://pub5.di.fm:80/di_psybient_aac.flv","http://pub6.di.fm:80/di_psybient_aac.flv","http://pub4.di.fm:80/di_psybient_aac.flv","http://pub2.di.fm:80/di_psybient_aac.flv","http://pub1.di.fm:80/di_psybient_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/electropop.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 056b826d9034a8edfca960d3f7f8fe09
+      Etag:
+      - W/"f0d47b0cf27be4a98a100590ba951e6a"
+      X-Runtime:
+      - '0.005877'
+      Date:
+      - Mon, 25 Apr 2016 16:39:56 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '32899823'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_electropop_aac.flv","http://pub4.di.fm:80/di_electropop_aac.flv","http://pub5.di.fm:80/di_electropop_aac.flv","http://pub8.di.fm:80/di_electropop_aac.flv","http://pub6.di.fm:80/di_electropop_aac.flv","http://pub7.di.fm:80/di_electropop_aac.flv","http://pub1.di.fm:80/di_electropop_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/undergroundtechno.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - e410c2ee6a7567607735df9f0dd5e942
+      Etag:
+      - W/"811f47ee8a5e8c7708435d0325505547"
+      X-Runtime:
+      - '0.007647'
+      Date:
+      - Mon, 25 Apr 2016 16:39:56 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '103547276'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_undergroundtechno_aac.flv","http://pub5.di.fm:80/di_undergroundtechno_aac.flv","http://pub8.di.fm:80/di_undergroundtechno_aac.flv","http://pub6.di.fm:80/di_undergroundtechno_aac.flv","http://pub4.di.fm:80/di_undergroundtechno_aac.flv","http://pub7.di.fm:80/di_undergroundtechno_aac.flv","http://pub1.di.fm:80/di_undergroundtechno_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/bassline.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 74b578de65da1efc000009a4910e9569
+      Etag:
+      - W/"07ae7b6f9b2d36b38d5cbdc2b52d88c5"
+      X-Runtime:
+      - '0.005477'
+      Date:
+      - Mon, 25 Apr 2016 16:39:56 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1010730135'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_bassline_aac.flv","http://pub4.di.fm:80/di_bassline_aac.flv","http://pub6.di.fm:80/di_bassline_aac.flv","http://pub1.di.fm:80/di_bassline_aac.flv","http://pub7.di.fm:80/di_bassline_aac.flv","http://pub8.di.fm:80/di_bassline_aac.flv","http://pub2.di.fm:80/di_bassline_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/bassnjackinhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 4b44bc8aea5b7c6350d3fdf00f62b304
+      Etag:
+      - W/"94b00002b79eeb446565fca7d33be8e9"
+      X-Runtime:
+      - '0.009629'
+      Date:
+      - Mon, 25 Apr 2016 16:39:56 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '405344392'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '109'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_bassnjackinhouse_aac.flv","http://pub2.di.fm:80/di_bassnjackinhouse_aac.flv","http://pub5.di.fm:80/di_bassnjackinhouse_aac.flv","http://pub4.di.fm:80/di_bassnjackinhouse_aac.flv","http://pub7.di.fm:80/di_bassnjackinhouse_aac.flv","http://pub8.di.fm:80/di_bassnjackinhouse_aac.flv","http://pub1.di.fm:80/di_bassnjackinhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/drumstep.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - a3924be03e8f57e3514ec5eba8ace3e6
+      Etag:
+      - W/"b4602a3224fe4bef1d746718ed33edd3"
+      X-Runtime:
+      - '0.004726'
+      Date:
+      - Mon, 25 Apr 2016 16:39:56 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '687213474'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_drumstep_aac.flv","http://pub2.di.fm:80/di_drumstep_aac.flv","http://pub4.di.fm:80/di_drumstep_aac.flv","http://pub7.di.fm:80/di_drumstep_aac.flv","http://pub6.di.fm:80/di_drumstep_aac.flv","http://pub8.di.fm:80/di_drumstep_aac.flv","http://pub1.di.fm:80/di_drumstep_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/futuregarage.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - f5f9b136353e040639016967452a9ab2
+      Etag:
+      - W/"979a5181f568ed701d98a45ca6c94496"
+      X-Runtime:
+      - '0.007266'
+      Date:
+      - Mon, 25 Apr 2016 16:39:56 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1048184046'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_futuregarage_aac.flv","http://pub1.di.fm:80/di_futuregarage_aac.flv","http://pub5.di.fm:80/di_futuregarage_aac.flv","http://pub7.di.fm:80/di_futuregarage_aac.flv","http://pub4.di.fm:80/di_futuregarage_aac.flv","http://pub8.di.fm:80/di_futuregarage_aac.flv","http://pub6.di.fm:80/di_futuregarage_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:56 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/jungle.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - fc6e2098b256549adf076190a19f6a43
+      Etag:
+      - W/"50bfe7632800f48cad64ce036bb5ea0c"
+      X-Runtime:
+      - '0.004379'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '184647705'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '91'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_jungle_aac.flv","http://pub5.di.fm:80/di_jungle_aac.flv","http://pub7.di.fm:80/di_jungle_aac.flv","http://pub6.di.fm:80/di_jungle_aac.flv","http://pub1.di.fm:80/di_jungle_aac.flv","http://pub8.di.fm:80/di_jungle_aac.flv","http://pub2.di.fm:80/di_jungle_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/nightcore.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 345cb427cf88733d4167dbba06f184b6
+      Etag:
+      - W/"554612fd2767aa24a104fe83e2b07a75"
+      X-Runtime:
+      - '0.005349'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '55738989'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_nightcore_aac.flv","http://pub6.di.fm:80/di_nightcore_aac.flv","http://pub1.di.fm:80/di_nightcore_aac.flv","http://pub5.di.fm:80/di_nightcore_aac.flv","http://pub7.di.fm:80/di_nightcore_aac.flv","http://pub8.di.fm:80/di_nightcore_aac.flv","http://pub2.di.fm:80/di_nightcore_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/nudisco.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 74e844e5497101ada82a988dbbfbeb4c
+      Etag:
+      - W/"1aa1c20f636fc54ccfe284d813ef6cc9"
+      X-Runtime:
+      - '0.003377'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '40895215'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '98'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub4.di.fm:80/di_nudisco_aac.flv","http://pub2.di.fm:80/di_nudisco_aac.flv","http://pub5.di.fm:80/di_nudisco_aac.flv","http://pub6.di.fm:80/di_nudisco_aac.flv","http://pub7.di.fm:80/di_nudisco_aac.flv","http://pub8.di.fm:80/di_nudisco_aac.flv","http://pub1.di.fm:80/di_nudisco_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/oldschoolrave.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 0d23b3151b502da78f728362298f7d9e
+      Etag:
+      - W/"e169b1d5b167d97547c00e987307525d"
+      X-Runtime:
+      - '0.003633'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '55837308'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '106'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub1.di.fm:80/di_oldschoolrave_aac.flv","http://pub8.di.fm:80/di_oldschoolrave_aac.flv","http://pub4.di.fm:80/di_oldschoolrave_aac.flv","http://pub7.di.fm:80/di_oldschoolrave_aac.flv","http://pub6.di.fm:80/di_oldschoolrave_aac.flv","http://pub5.di.fm:80/di_oldschoolrave_aac.flv","http://pub2.di.fm:80/di_oldschoolrave_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/melbournebounce.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 724dbaea265faa7f878ffd8efe0e16d1
+      Etag:
+      - W/"d751713988987e9331980363e24189ce"
+      X-Runtime:
+      - '0.010827'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '969508194'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '28'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: "[]"
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/00sclubhits.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 30fef3506d47c0b5e55a3ed9b770921d
+      Etag:
+      - W/"77c83bea96ad03b0cfc8ae1242e30f8d"
+      X-Runtime:
+      - '0.005196'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '176816204'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_00sclubhits_aac.flv","http://pub4.di.fm:80/di_00sclubhits_aac.flv","http://pub5.di.fm:80/di_00sclubhits_aac.flv","http://pub6.di.fm:80/di_00sclubhits_aac.flv","http://pub8.di.fm:80/di_00sclubhits_aac.flv","http://pub7.di.fm:80/di_00sclubhits_aac.flv","http://pub1.di.fm:80/di_00sclubhits_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/bigbeat.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 66613819fd62026b2252e1bfe89ffdc7
+      Etag:
+      - W/"b457430207267ef9310e3f2d90ef51ef"
+      X-Runtime:
+      - '0.004385'
+      Date:
+      - Mon, 25 Apr 2016 16:39:57 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '1040221451'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '100'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_bigbeat_aac.flv","http://pub5.di.fm:80/di_bigbeat_aac.flv","http://pub7.di.fm:80/di_bigbeat_aac.flv","http://pub2.di.fm:80/di_bigbeat_aac.flv","http://pub6.di.fm:80/di_bigbeat_aac.flv","http://pub4.di.fm:80/di_bigbeat_aac.flv","http://pub1.di.fm:80/di_bigbeat_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:57 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/ebm.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 675a469fd35c999967326d650b4e6cb4
+      Etag:
+      - W/"ef8dd74807bf520cc41cb8ad3e51af4e"
+      X-Runtime:
+      - '0.007106'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '81068488'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub6.di.fm:80/di_ebm_aac.flv","http://pub7.di.fm:80/di_ebm_aac.flv","http://pub8.di.fm:80/di_ebm_aac.flv","http://pub5.di.fm:80/di_ebm_aac.flv","http://pub4.di.fm:80/di_ebm_aac.flv","http://pub2.di.fm:80/di_ebm_aac.flv","http://pub1.di.fm:80/di_ebm_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/electroswing.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 990c86ecbc2629068c3a7027ecca500a
+      Etag:
+      - W/"f569543c08104c615da42a039fa343da"
+      X-Runtime:
+      - '0.004376'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '671222463'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_electroswing_aac.flv","http://pub7.di.fm:80/di_electroswing_aac.flv","http://pub6.di.fm:80/di_electroswing_aac.flv","http://pub5.di.fm:80/di_electroswing_aac.flv","http://pub2.di.fm:80/di_electroswing_aac.flv","http://pub4.di.fm:80/di_electroswing_aac.flv","http://pub1.di.fm:80/di_electroswing_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/darkpsytrance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - d67d6035496a0c8a3d6534af0a450b81
+      Etag:
+      - W/"9e7c0b32b231e8c2f183291f83e90072"
+      X-Runtime:
+      - '0.006265'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '123633999'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '106'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_darkpsytrance_aac.flv","http://pub4.di.fm:80/di_darkpsytrance_aac.flv","http://pub6.di.fm:80/di_darkpsytrance_aac.flv","http://pub8.di.fm:80/di_darkpsytrance_aac.flv","http://pub7.di.fm:80/di_darkpsytrance_aac.flv","http://pub5.di.fm:80/di_darkpsytrance_aac.flv","http://pub1.di.fm:80/di_darkpsytrance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/electronics.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 6c3303dd8bdda7e4445270cd1856f53e
+      Etag:
+      - W/"e0c96b6e07739d0701bc1b46de18189e"
+      X-Runtime:
+      - '0.007496'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '624069763'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_electronics_aac.flv","http://pub2.di.fm:80/di_electronics_aac.flv","http://pub4.di.fm:80/di_electronics_aac.flv","http://pub6.di.fm:80/di_electronics_aac.flv","http://pub8.di.fm:80/di_electronics_aac.flv","http://pub7.di.fm:80/di_electronics_aac.flv","http://pub1.di.fm:80/di_electronics_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/dub.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 9a36222aaf9220406499de6dd61ad4e3
+      Etag:
+      - W/"f301232b572fe8689567df5b76378af8"
+      X-Runtime:
+      - '0.003818'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '737905134'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '97'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_dub_aac.flv","http://pub5.di.fm:80/di_dub_aac.flv","http://pub4.di.fm:80/di_dub_aac.flv","http://pub8.di.fm:80/di_dub_aac.flv","http://pub2.di.fm:80/di_dub_aac.flv","http://pub6.di.fm:80/di_dub_aac.flv","http://pub1.di.fm:80/di_dub_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/jazzhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 05348024d524fedbe875299ce42d37ac
+      Etag:
+      - W/"d0859cf63beb5c51eb6a3492db2b4928"
+      X-Runtime:
+      - '0.005576'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '83263939'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub7.di.fm:80/di_jazzhouse_aac.flv","http://pub6.di.fm:80/di_jazzhouse_aac.flv","http://pub5.di.fm:80/di_jazzhouse_aac.flv","http://pub4.di.fm:80/di_jazzhouse_aac.flv","http://pub8.di.fm:80/di_jazzhouse_aac.flv","http://pub2.di.fm:80/di_jazzhouse_aac.flv","http://pub1.di.fm:80/di_jazzhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/idm.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - df35cbdcf7d0054176a187a8b996bbed
+      Etag:
+      - W/"1390b46e8884537fd0ff0bd54e3a9074"
+      X-Runtime:
+      - '0.004889'
+      Date:
+      - Mon, 25 Apr 2016 16:39:58 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '109281618'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '88'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_idm_aac.flv","http://pub4.di.fm:80/di_idm_aac.flv","http://pub5.di.fm:80/di_idm_aac.flv","http://pub6.di.fm:80/di_idm_aac.flv","http://pub7.di.fm:80/di_idm_aac.flv","http://pub2.di.fm:80/di_idm_aac.flv","http://pub1.di.fm:80/di_idm_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:58 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/indiedance.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - efea2d6270cdadfe66ab64697db68d9b
+      Etag:
+      - W/"ddcf7abf415f2233cff2a77a89299bb7"
+      X-Runtime:
+      - '0.006489'
+      Date:
+      - Mon, 25 Apr 2016 16:39:59 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '894437157'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '101'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_indiedance_aac.flv","http://pub5.di.fm:80/di_indiedance_aac.flv","http://pub6.di.fm:80/di_indiedance_aac.flv","http://pub7.di.fm:80/di_indiedance_aac.flv","http://pub2.di.fm:80/di_indiedance_aac.flv","http://pub4.di.fm:80/di_indiedance_aac.flv","http://pub1.di.fm:80/di_indiedance_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:59 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/liquidtrap.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - d9cd8e24724c5ecbd85e2e0b05cd4f1c
+      Etag:
+      - W/"63bb49964741e2b2a2e93d0199657473"
+      X-Runtime:
+      - '0.005518'
+      Date:
+      - Mon, 25 Apr 2016 16:39:59 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '676731717'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '95'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_liquidtrap_aac.flv","http://pub4.di.fm:80/di_liquidtrap_aac.flv","http://pub6.di.fm:80/di_liquidtrap_aac.flv","http://pub8.di.fm:80/di_liquidtrap_aac.flv","http://pub2.di.fm:80/di_liquidtrap_aac.flv","http://pub7.di.fm:80/di_liquidtrap_aac.flv","http://pub1.di.fm:80/di_liquidtrap_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:59 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/detroithousentechno.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - b1ffca58cf333b614b38618ef925197f
+      Etag:
+      - W/"0ebea3cf88e339d9f9b7bf69f8745119"
+      X-Runtime:
+      - '0.004274'
+      Date:
+      - Mon, 25 Apr 2016 16:39:59 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '361041917'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_detroithousentechno_aac.flv","http://pub7.di.fm:80/di_detroithousentechno_aac.flv","http://pub2.di.fm:80/di_detroithousentechno_aac.flv","http://pub4.di.fm:80/di_detroithousentechno_aac.flv","http://pub5.di.fm:80/di_detroithousentechno_aac.flv","http://pub6.di.fm:80/di_detroithousentechno_aac.flv","http://pub1.di.fm:80/di_detroithousentechno_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:59 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/dubtechno.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 96ba7d73f710d6e9e5bd67a656480246
+      Etag:
+      - W/"76a66347105c300b73c60e5138a6b9f1"
+      X-Runtime:
+      - '0.005700'
+      Date:
+      - Mon, 25 Apr 2016 16:39:59 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '94142915'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_dubtechno_aac.flv","http://pub7.di.fm:80/di_dubtechno_aac.flv","http://pub6.di.fm:80/di_dubtechno_aac.flv","http://pub5.di.fm:80/di_dubtechno_aac.flv","http://pub4.di.fm:80/di_dubtechno_aac.flv","http://pub2.di.fm:80/di_dubtechno_aac.flv","http://pub1.di.fm:80/di_dubtechno_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:59 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/chillntropicalhouse.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 2e0c97c361a0fb93134ceb9d4bc1801d
+      Etag:
+      - W/"eef2a92d1e79368dea189d0953713141"
+      X-Runtime:
+      - '0.007301'
+      Date:
+      - Mon, 25 Apr 2016 16:39:59 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '5112807'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '104'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub5.di.fm:80/di_chillntropicalhouse_aac.flv","http://pub2.di.fm:80/di_chillntropicalhouse_aac.flv","http://pub4.di.fm:80/di_chillntropicalhouse_aac.flv","http://pub6.di.fm:80/di_chillntropicalhouse_aac.flv","http://pub8.di.fm:80/di_chillntropicalhouse_aac.flv","http://pub7.di.fm:80/di_chillntropicalhouse_aac.flv","http://pub1.di.fm:80/di_chillntropicalhouse_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:59 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/futurebeats.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - 395b1777e96f05af7157beb791f76a6f
+      Etag:
+      - W/"a2118fabb598417aa2b7a40ffa9e4cc8"
+      X-Runtime:
+      - '0.005322'
+      Date:
+      - Mon, 25 Apr 2016 16:39:59 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '46924345'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '96'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_futurebeats_aac.flv","http://pub7.di.fm:80/di_futurebeats_aac.flv","http://pub2.di.fm:80/di_futurebeats_aac.flv","http://pub6.di.fm:80/di_futurebeats_aac.flv","http://pub4.di.fm:80/di_futurebeats_aac.flv","http://pub5.di.fm:80/di_futurebeats_aac.flv","http://pub1.di.fm:80/di_futurebeats_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:39:59 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/melodicprogressive.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - bfadf507fe08baa1b7c5293178f93ac7
+      Etag:
+      - W/"021d453639d15392d6d2d43e697be0df"
+      X-Runtime:
+      - '0.007204'
+      Date:
+      - Mon, 25 Apr 2016 16:40:00 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '117178776'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_melodicprogressive_aac.flv","http://pub6.di.fm:80/di_melodicprogressive_aac.flv","http://pub5.di.fm:80/di_melodicprogressive_aac.flv","http://pub7.di.fm:80/di_melodicprogressive_aac.flv","http://pub2.di.fm:80/di_melodicprogressive_aac.flv","http://pub4.di.fm:80/di_melodicprogressive_aac.flv","http://pub1.di.fm:80/di_melodicprogressive_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:40:00 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/atmosphericbreaks.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - ac1a16638e3636f00f2ea503a0ed5b54
+      Etag:
+      - W/"5d62ec7697b545dfdafed566a0ce742c"
+      X-Runtime:
+      - '0.004364'
+      Date:
+      - Mon, 25 Apr 2016 16:40:00 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.0 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '42893894'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '110'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub2.di.fm:80/di_atmosphericbreaks_aac.flv","http://pub7.di.fm:80/di_atmosphericbreaks_aac.flv","http://pub4.di.fm:80/di_atmosphericbreaks_aac.flv","http://pub6.di.fm:80/di_atmosphericbreaks_aac.flv","http://pub5.di.fm:80/di_atmosphericbreaks_aac.flv","http://pub8.di.fm:80/di_atmosphericbreaks_aac.flv","http://pub1.di.fm:80/di_atmosphericbreaks_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:40:00 GMT
+- request:
+    method: get
+    uri: http://api.audioaddict.com/v1/di/listen/webplayer/indiebeats.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=300, public
+      Content-Language:
+      - en
+      X-Request-Id:
+      - acaea8f777c26592e95033a27cbcf99c
+      Etag:
+      - W/"0643699418ad73ade61d0ceb347d9b3b"
+      X-Runtime:
+      - '0.008114'
+      Date:
+      - Mon, 25 Apr 2016 16:40:00 GMT
+      X-Powered-By:
+      - Phusion Passenger Enterprise
+      Server:
+      - nginx/1.8.1 + Phusion Passenger
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Varnish:
+      - '658181187'
+      Age:
+      - '0'
+      Via:
+      - 1.1 varnish-v4
+      Access-Control-Allow-Origin:
+      - "*"
+      Accept-Ranges:
+      - bytes
+      Content-Length:
+      - '103'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '["http://pub8.di.fm:80/di_indiebeats_aac.flv","http://pub5.di.fm:80/di_indiebeats_aac.flv","http://pub4.di.fm:80/di_indiebeats_aac.flv","http://pub6.di.fm:80/di_indiebeats_aac.flv","http://pub7.di.fm:80/di_indiebeats_aac.flv","http://pub2.di.fm:80/di_indiebeats_aac.flv","http://pub1.di.fm:80/di_indiebeats_aac.flv"]'
+    http_version: 
+  recorded_at: Mon, 25 Apr 2016 16:40:00 GMT
 recorded_with: VCR 3.0.1
