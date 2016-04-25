@@ -11,6 +11,16 @@ class AudioAddictApi
 
   def stream_url(channel)
     resp = self.class.get("/listen/webplayer/#{channel.key}.json")
-    resp[2]
+    url = pub5_as_third_url(resp)
+    url ||= resp.last
+  end
+
+  private
+  def pub5_as_third_url(resp)
+    url = resp[2]
+
+    if url && url.match(/pub5/)
+      url
+    end
   end
 end
