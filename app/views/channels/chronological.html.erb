@@ -1,4 +1,7 @@
 <ul class="nav nav-tabs">
+
+  <% # REFACTOR SMELL -- Primitive Obsession %>
+
   <% @channels.keys.each_with_index do |year, i| %>
     <li class="nav-item">
       <%= link_to year, "#channels_#{year}", class: "nav-link #{'active' if i == 0}",
