@@ -8,7 +8,9 @@ class SynchronizeChannels
 
   def call
     api.channels.map do |channel|
-      channel_creator.call(channel)
+      channel = channel_creator.call(channel)
+      yield(channel) if block_given?
+      channel
     end
   end
 end
