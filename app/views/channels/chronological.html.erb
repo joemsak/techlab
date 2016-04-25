@@ -1,16 +1,15 @@
 <ul class="nav nav-tabs">
-  <% @channels.each_with_index do |year_channels, i| %>
+  <% @channels.keys.each_with_index do |year, i| %>
     <li class="nav-item">
-      <%= link_to year_channels[0], "#channels_#{year_channels[0]}",
-                                    class: "nav-link #{'active' if i == 0}",
-                                    data: { toggle: "tab" } %>
+      <%= link_to year, "#channels_#{year}", class: "nav-link #{'active' if i == 0}",
+                                             data: { toggle: "tab" } %>
     </li>
   <% end %>
 </ul>
 
 <div class="tab-content">
-  <% @channels.each_with_index do |year_channels, i| %>
-    <div class="tab-pane <%= 'active' if i == 0 %>" id="channels_<%= year_channels[0] %>">
+  <% @channels.keys.each_with_index do |year, i| %>
+    <div class="tab-pane <%= 'active' if i == 0 %>" id="channels_<%= year %>">
       <table class="table table-striped">
         <thead>
           <tr>
@@ -22,7 +21,7 @@
         </thead>
 
         <tbody>
-          <% year_channels[1].each do |channel| %>
+          <% @channels[year].each do |channel| %>
             <tr>
               <td><%= channel.name %></td>
               <td><%= channel.description %></td>

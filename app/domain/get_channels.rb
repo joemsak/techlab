@@ -6,6 +6,6 @@ class GetChannels
       channel.created_at.year
     end
 
-    years_sorted_newest_on_top = grouped_by_year.sort_by { |year, _| year }.reverse
+    years_sorted_newest_on_top = grouped_by_year.sort.reverse.to_h
   end
 end
