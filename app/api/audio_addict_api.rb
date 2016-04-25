@@ -5,6 +5,8 @@ class AudioAddictApi
 
   base_uri 'api.audioaddict.com/v1/di'
 
+  PREFERRED_STREAM_URL_HOSTNAME = /pub5/
+
   def channels
     Rails.cache.fetch(:di_channels) do
       self.class.get("/channels.json")
@@ -16,13 +18,12 @@ class AudioAddictApi
       self.class.get("/listen/webplayer/#{channel.key}.json").to_a
     end
 
-    url = pub5_as_third_url(streams)
-    url ||= streams.last
+    preferred_stream_url(streams) || streams.last
   end
 
   private
-  def pub5_as_third_url(streams)
+  def preferred_stream_url(streams)
     url = streams[2]
-    url if url && url.match(/pub5/)
+    url && url.match(PREFERRED_STREAM_URL_HOSTNAME) ? url : nil
   end
 end
