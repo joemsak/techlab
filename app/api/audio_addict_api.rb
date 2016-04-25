@@ -5,7 +5,8 @@ class AudioAddictApi
 
   base_uri 'api.audioaddict.com/v1/di'
 
-  PREFERRED_STREAM_URL_HOSTNAME = /pub5/
+  PREFERRED_STREAM_URL_HOST = 'pub5'
+  PREFERRED_STREAM_URL_POSITION = 2
 
   def channels
     Rails.cache.fetch(:di_channels) do
@@ -23,7 +24,7 @@ class AudioAddictApi
 
   private
   def preferred_stream_url(streams)
-    url = streams[2]
-    url && url.match(PREFERRED_STREAM_URL_HOSTNAME) ? url : nil
+    url = streams[PREFERRED_STREAM_URL_POSITION]
+    url && url.match(/#{PREFERRED_STREAM_URL_HOST}/) ? url : nil
   end
 end
